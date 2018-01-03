@@ -30,9 +30,9 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.camunda.bpm.extension.springboot</groupId>
-        <artifactId>camunda-bpm-spring-boot-starter-bom</artifactId>
-        <version>${camunda-springboot.version}</version>
+        <groupId>org.camunda.bpm</groupId>
+        <artifactId>camunda-bom</artifactId>
+        <version>7.8.0</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
@@ -41,8 +41,8 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.camunda.bpm.extension.springboot</groupId>
-      <artifactId>camunda-bpm-spring-boot-starter</artifactId>
+      <groupId>org.camunda.bpm.springboot</groupId>
+      <artifactId>camunda-bpm-spring-boot-starter-webapp</artifactId>
       <version>${camunda-springboot.version}</version>
     </dependency>
 
@@ -54,6 +54,11 @@
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-reflect</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
     </dependency>
 
     <dependency>
