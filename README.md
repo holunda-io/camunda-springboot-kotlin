@@ -6,7 +6,7 @@ using
 
 * camunda bpm 7.8.0
 * camunda spring boot starter webapp/rest 2.3.0
-* spring boot 2.0.0.M7
+* spring boot 2.0.0.RELEASE
 
 
 
