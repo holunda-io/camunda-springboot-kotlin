@@ -1,5 +1,7 @@
 # camunda-springboot-kotlin
 
+[![example](https://img.shields.io/badge/lifecycle-EXAMPLE-blue.svg)](https://github.com/holisticon#open-source-lifecycle)
+
 Example application running camunda with spring boot, written in kotlin
 
 using
